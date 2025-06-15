@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visit Us - School of Data Science</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .map-section {
+      padding: 60px 20px 30px;
+      background-color: #f4f8fb;
+      text-align: center;
+    }
+
+    .map-section h1 {
+      font-size: 36px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .map-section p {
+      font-size: 18px;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+    }
+
+    .image-container {
+      margin: 30px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .map-container {
+      max-width: 1000px;
+      margin: 40px auto 50px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: 0;
+    }
+
+    .comment-section {
+      background-color: #ffffff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .comment-section h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    .comment-section p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="map-section">
+    <h1>Visit the School of Data Science and Analytics</h1>
+    <p>
+      Located inside the lush Mahatma Gandhi University campus, Kottayam, the School of Data Science and Analytics offers a tranquil and inspiring environment for education and research.
+    </p>
+
+
+
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps?q=School%20of%20Data%20Science%20and%20Analytics%20MGU%20Kottayam&output=embed"
+        allowfullscreen 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="comment-section">
+    <h2>Leave a Comment</h2>
+    <p>We value your feedback and questions. Drop us a message below!</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="comment" rows="5" placeholder="Your Comment" required></textarea>
+      <button type="submit">Submit Comment</button>
+    </form>
+  </section>
+
+</body>
+</html>
